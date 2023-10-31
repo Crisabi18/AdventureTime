@@ -163,7 +163,7 @@ nombrePersonajes.addEventListener(
       case "Princesa grumosa":
         opcion = nombrePersonajes.lastChild.parentElement[8].innerHTML;
         personaje.src = "assets/img/p8.jpg";
-       gversionesremoveAttribute("disabled");
+        versiones.removeAttribute("disabled");
         versiones.innerHTML = versiones.innerHTML;
         // descripcion.innerHTML = "";
         //
@@ -355,8 +355,8 @@ nombrePersonajes.addEventListener(
         case "g1":
           opcion1 = versiones.lastChild.parentElement[16].innerHTML;
           personaje.src = "assets/img/p8.jpg";
-          personaje2 = "assets/img/atadura.gif";
-          descripcion = "Desde su nacimiento se vio sometida a la Maldición Celestial volviéndose incapaz de hacer uso de la energía maldita, sin embargo, obtuvo una fuerza, velocidad y resistencia sobrehumana";
+          personaje2 = "assets/img/grumoso.webp";
+          descripcion = "Es la versión hombre de la princesa grumosa del universo alterno de hora de Aventura";
           // body.style.background = "#ff4500 ";
           body.style.marginTop = "30px";
           // title.style.display = "none";
@@ -364,8 +364,8 @@ nombrePersonajes.addEventListener(
         case "g2":
           opcion1 = versiones.lastChild.parentElement[17].innerHTML;
           personaje.src = "assets/img/p8.jpg";
-          personaje2 = "assets/img/armas.gif";
-          descripcion = "Debido a su falta de capacidad para manipular la energía maldita, se especializó en el uso de armas y herramientas malditas. Posee una increíble capacidad en el manejo de las mismas siendo, al menos, la mejor de segundo año en el uso de éstas.";
+          personaje2 = "assets/img/grumosa3d.jpg";
+          descripcion = "Es la version 3D de la princesa grumosa del capitulo 'Malas Vibras'";
           // body.style.background = "#ff4500 ";
           body.style.marginTop = "30px";
           // title.style.display = "none";
@@ -373,8 +373,8 @@ nombrePersonajes.addEventListener(
         case "c1":
           opcion1 = versiones.lastChild.parentElement[18].innerHTML;
           personaje.src = "assets/img/p9.jpg";
-          personaje2 = "assets/img/proporcion.webp";
-          descripcion = "Una técnica innata que le permite la división de la longitud del oponente en diez líneas y producir forzosamente un punto débil en una proporción de 7:3. Puede elegir libremente qué parte dividir, incluidos la cabeza, torso, brazos o piernas";
+          personaje2 = "assets/img/cabezalimon.jpg";
+          descripcion = "hay diferentes criaturas que fueron hechas a partir de limon agrio y esta es una de esas formas de vida fallidas";
           // body.style.background = "#ff4500 ";
           body.style.marginTop = "30px";
           // title.style.display = "none";
@@ -382,8 +382,8 @@ nombrePersonajes.addEventListener(
         case "c2":
           opcion1 = versiones.lastChild.parentElement[19].innerHTML;
           personaje.src = "assets/img/p9.jpg";
-          personaje2 = "assets/img/derrumbe.gif";
-          descripcion = "crea un gran punto débil en el entorno circundante, lo que le permite a Nanami destruir al objetivo de un solo golpe";
+          personaje2 = "assets/img/limonclon.webp";
+          descripcion = "Es un segundo limon agrio fromado de igual forma por la dulce princesa, este fue creado para hacerle compañia al solitario limon agrio";
           // body.style.background = "#ff4500 ";
           body.style.marginTop = "30px";
           // title.style.display = "none";
