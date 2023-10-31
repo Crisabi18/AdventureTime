@@ -1,5 +1,5 @@
 if ("serviceWorker" in navigator) {
-    navigator.serviceWorker.register('../sw.js')
+    navigator.serviceWorker.register('/sw.js')
       .then(function (registration) {
         console.log("Service Worker registrado con éxito:", registration);
       })
@@ -338,7 +338,7 @@ nombrePersonajes.addEventListener(
           opcion1 = versiones.lastChild.parentElement[14].innerHTML;
           personaje.src = "assets/img/p7.jpg";
           personaje2 = "assets/img/fl1.jpg";
-          descripcion = "Versión masculina de Marceline, es su version en un mundo paralelo donde todos los generos se invierten.";
+          descripcion = "Versión masculina de la princesa flama, es su version en un mundo paralelo donde todos los generos se invierten.";
           // body.style.background = "#ff4500 ";
           body.style.marginTop = "30px";
           // title.style.display = "none";
