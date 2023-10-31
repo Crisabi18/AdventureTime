@@ -37,6 +37,7 @@ self.addEventListener("install", (event) => {
       cache.add("assets/img/l1.webp"),
       cache.add("assets/img/l2.webp"),
       cache.add("assets/icons/564x341.png"),
+      cache.add("assets/icons/undo.png"),
       cache.add("index.html"),
       cache.add("interfaz2.html"),
       cache.add("interfaz3.html"),
@@ -60,7 +61,7 @@ self.addEventListener("install", (event) => {
       const respuesta = fetch(event.request).then (newResp=>{
         //si no existe el archivo, vamos a internet hay 
         //que almacenar los recursos borrados de nuevo en el cache
-        caches.open('Boveda1').then(cache=>{
+        caches.open('Boveda').then(cache=>{
             cache.put(event.request,newResp);
   
         });
