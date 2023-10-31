@@ -1,0 +1,16 @@
+{
+    "short_name": "HORA DE AVENTURA",
+    "name": "personajes de Hora de Aventura",
+    "start_url":"index.html",
+    "background-color": "#ff4500 ",
+    "theme-color": "#ff4500 ",
+    "display": "standalone",
+    "orientation": "portrait", 
+    "icons":[
+        {
+            "src": "assets/icons/564x341.png",
+            "type": "image/png",
+            "sizes": "564x341"
+        }
+    ]
+}

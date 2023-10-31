@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#ff4500 ">
+    <link rel="shortcut icon" href="assets/icons/564x341.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="manifest" href="manifest.json">
+    <title>Hora de Aventura</title>
+</head>
+<body>
+    <h1 id="title" class="title text-center" >HORA DE AVENTURA</h1>
+    <div class="wrapper">
+       
+
+        <div class="card" width="500px" height="700px" id="card" style="margin-top: 60px;">
+            <div class="card-body">
+                <!-- <center>
+                    <label class="text-light pt-1 mb-2" style="font-size: 20px;">
+                        Personajes
+                    </label>
+                </center> -->
+
+                <select class="form-select form-control text-center text-light" name="personajes" id="personajes" style="background-color: orangered;" required>
+                    <option value="Selecciona" disabled selected>Selecciona</option>
+                    <option value="Finn el humano">Finn el humano</option>
+                    <option value="Jake el perro">Jake el perro</option>
+                    <option value="BMO">BMO</option>
+                    <option value="Rey helado">Rey helado</option>
+                    <option value="Dulce princesa">Dulce princesa</option>
+                    <option value="Marceline">Marceline</option>
+                    <option value="Princesa flama">Princesa flama</option>
+                    <option value="Princesa grumosa">Princesa grumosa</option>
+                    <option value="Conde limón agrio">Conde limón agrio</option>
+                    <option value="El litch">El litch</option>
+                    
+                </select>
+                <select disabled class="form-select form-control text-center text-light mt-1" name="personajes2" id="versiones" style="background-color: orangered;">
+                    <option value="selecciona" disabled selected>Selecciona un personaje primero</option>
+                    <option value="f1">Fionna</option>
+                    <option value="f2">Fern</option>
+                    <option value="f3">lobo apapacho</option>
+
+                    <option value="j1">Jake mago</option>
+                    <option value="j2">Cake</option>
+
+                    <option value="b1">BMO Skater</option>
+                    <option value="b2">BMO con impermeable</option>
+
+                    <option value="r1">Reina helada</option>
+                    <option value="r2">Rey trajeado</option>
+1
+                    <option value="d1">Dulce Principe</option>
+                    <option value="d2">Dulce Reina</option>
+
+                    <option value="m1">Marshall Lee</option>
+                    <option value="m2">Marceline "La Estrella" Abadee</option>
+
+                    <option value="fl1">Principe Flama</option>
+                    <option value="fl2">Princesa Flama alterna</option>
+
+                    <option value="g1">???</option>
+                    <option value="g2">???</option>
+
+                    <option value="c1">???</option>
+                    <option value="c2">???</option>
+
+                    <option value="l1">Billy</option>
+                    <option value="l2">Jake alterno</option>
+
+                </select>
+
+                <center>
+                    <img src="assets/img/adTi.jpg" alt="" width="300px" height="430px" class="mt-3 mb-3" id="imgPersonaje">
+                    <!-- <p class="text-light text-center" id="descripcion" style="background-color: #ff4500 ; margin-bottom: 70px;"></p> -->
+                </center>
+                
+            </div>
+        </div>
+
+
+        
+
+        <div class="personajes" style="display: none;">
+            <img src="assets/img/p1.jpg" alt="">
+            <img src="assets/img/" alt="">
+            <img src="assets/img/" alt="">
+            <img src="assets/img/" alt="">
+            <img src="assets/img/" alt="">
+        </div>
+
+    </div>
+    <script src="js/app.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/sweetalert2.all.min.js"></script>
+</body>
+</html>
